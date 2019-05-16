@@ -132,6 +132,27 @@ body {
     color:#34a853;
     text-decoration: none;
 }
+.profilePic{
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    margin-right: 1.5rem
+}
+.profilePic .fa-user{
+    font-size: 2rem;
+    margin-top: .5rem
+}
+.userId{
+    color: #f3c11d;
+    padding-right: 1rem;
+}
+.userId:hover{
+    color: #f3c11d;
+    text-decoration:none;
+}
 /* -------------------------------------------------- */
 /* HERO BANNER */
 /* -------------------------------------------------- */
@@ -308,6 +329,110 @@ body {
     color:#34a853;
     display: block;
     margin-top: 1rem;
+}
+
+/* -------------------------------------------------- */
+/* Select Template */ 
+/* -------------------------------------------------- */
+.select__template{
+    /*background-color: #d8d9d9;*/
+    padding: 8rem 0;
+/*background: #4DA0B0;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.select__template img{
+    width: 250px;
+    height: 100%;
+}
+
+.sliderArrow-prev {
+    left: -12rem;
+}
+.sliderArrow-next {
+    right: -12rem;
+}
+.select__template .card{
+    border:5px solid transparent;
+}
+.select__template .card:hover{
+    border:5px solid #f1ce06;
+    cursor: pointer;
+}
+
+/* -------------------------------------------------- */
+/* TEMPLATE CONTENT CRAFT */ 
+/* -------------------------------------------------- */
+
+.template__content_craft{
+    padding: 2rem 0;
+}
+.template__content_craft i{
+    padding-right: 1.5rem;
+    font-size: 2rem;
+}
+.list-group-item{
+    padding: 1.5rem;
+}
+.list-group-item.active{
+    background: #e8eae9;
+    color: #333;
+    border:none;
+}
+
+.template__content_craft-form{
+    background: #f8f8f8;
+    border: 1px solid #dbdbdb;
+    min-height: 480px
+}
+.template__content_craft-form h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    background: #e8eae9;
+    padding: 1rem 1.5rem;
+}
+
+.template__content_craft-form form{
+    padding: 2rem;
+    color:#333
+}
+.template__content_craft-form form .form-group label{
+    color:#333;
+    font-size: 1.6rem;
+}
+.form-btn{
+    font-size: 1.8rem;
+    padding: .5rem 2rem;
+    background: #b8b8b8;
+    color: #333;
+    border:none;
+}
+.profile__img{
+    background: #fff;
+    width: 130px;
+    height: 130px;
+    margin-top: 2rem;
+    border:2px dashed #ccc;
+}
+.profile__img i{
+    font-size: 8rem;
+    text-align: center;
+    display: inline-block;
+    margin: 1rem 0 0 2.7rem;
+}
+.form-btn-prev{
+    margin-right: 2rem;
+}
+.profile__preview{
+    text-align: center;
+    padding: 4rem;
 }
 /* -------------------------------------------------- */
 /* MEDIA QUERY */ 
